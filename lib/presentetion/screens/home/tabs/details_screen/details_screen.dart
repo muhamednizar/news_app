@@ -76,7 +76,6 @@ class _ArticleDetailsScreenState extends State<ArticleDetailsScreen> {
                 ),
                 const SizedBox(height: 10),
 
-                // المحتوى الكامل للمقال
                 Text(
                   widget.article.content ?? 'No content available.',
                   style: TextStyle(
@@ -86,7 +85,6 @@ class _ArticleDetailsScreenState extends State<ArticleDetailsScreen> {
                 ),
                 const SizedBox(height: 20),
 
-                // زر "View Full Article"
                 Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [

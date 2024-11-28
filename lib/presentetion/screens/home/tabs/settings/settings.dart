@@ -39,9 +39,9 @@ class Settings extends StatelessWidget {
                   .toList(),
               onChanged: (value) {
                 if (value == 'English') {
-                  languageProvider.changeLocale('en'); // تغيير إلى الإنجليزية
+                  languageProvider.changeLocale('en');
                 } else if (value == 'Arabic') {
-                  languageProvider.changeLocale('ar'); // تغيير إلى العربية
+                  languageProvider.changeLocale('ar');
                 }
               },
             ),

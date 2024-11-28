@@ -11,11 +11,10 @@ class ApiManager {
   static const String sourcesEndPoint = '/v2/top-headlines/sources';
   static const String articlesEndPoint = '/v2/everything';
 
-  // دالة لجلب المقالات بناءً على استعلام البحث
   static Future<ArticlesResponse> searchArticles(String query) async {
     Uri url = Uri.https(_baseUrl, articlesEndPoint, {
       'apiKey': _apiKey,
-      'q': query, // استخدام معلمة 'q' للبحث
+      'q': query,
     });
 
     http.Response serverResponse = await http.get(url);
@@ -25,7 +24,6 @@ class ApiManager {
     return articlesResponse;
   }
 
-  // دالة لجلب المصادر بناءً على الفئة
   static Future<SourcesResponse> getSources(String categoryId) async {
     Uri url = Uri.https(_baseUrl, sourcesEndPoint, {
       'apiKey': _apiKey,
@@ -37,7 +35,6 @@ class ApiManager {
     return sourcesResponse;
   }
 
-  // دالة لجلب المقالات بناءً على المصدر
   static Future<ArticlesResponse> getArticles(String sourceId) async {
     Uri url = Uri.https(_baseUrl, articlesEndPoint, {
       'apiKey': _apiKey,

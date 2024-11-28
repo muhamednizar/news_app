@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from D:\programing\FLUTTER COURSE\news_app\android\app\src\main\AndroidManifest.xml:4:5-36:19
+INJECTED from D:\programing\FLUTTER COURSE\news_app\android\app\src\main\AndroidManifest.xml:5:5-36:19
 INJECTED from D:\programing\FLUTTER COURSE\news_app\android\app\src\debug\AndroidManifest.xml
 MERGED from [:url_launcher_android] D:\programing\FLUTTER COURSE\news_app\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-12:19
 MERGED from [:url_launcher_android] D:\programing\FLUTTER COURSE\news_app\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-12:19
@@ -66,11 +66,11 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\midom\.
 	xmlns:android
 		ADDED from D:\programing\FLUTTER COURSE\news_app\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from D:\programing\FLUTTER COURSE\news_app\android\app\src\main\AndroidManifest.xml:2:5-67
-MERGED from D:\programing\FLUTTER COURSE\news_app\android\app\src\main\AndroidManifest.xml:2:5-67
-MERGED from D:\programing\FLUTTER COURSE\news_app\android\app\src\main\AndroidManifest.xml:2:5-67
+ADDED from D:\programing\FLUTTER COURSE\news_app\android\app\src\main\AndroidManifest.xml:3:5-67
+MERGED from D:\programing\FLUTTER COURSE\news_app\android\app\src\main\AndroidManifest.xml:3:5-67
+MERGED from D:\programing\FLUTTER COURSE\news_app\android\app\src\main\AndroidManifest.xml:3:5-67
 	android:name
-		ADDED from D:\programing\FLUTTER COURSE\news_app\android\app\src\main\AndroidManifest.xml:2:22-64
+		ADDED from D:\programing\FLUTTER COURSE\news_app\android\app\src\main\AndroidManifest.xml:3:22-64
 queries
 ADDED from D:\programing\FLUTTER COURSE\news_app\android\app\src\main\AndroidManifest.xml:42:5-57:15
 intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:http

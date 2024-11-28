@@ -20,7 +20,6 @@ class MyApp extends StatelessWidget {
       splitScreenMode: true,
       builder: (context, child) => MaterialApp(
         locale: languageProvider.locale,
-        // اللغة الديناميكية
         localizationsDelegates: AppLocalizations.localizationsDelegates,
         supportedLocales: const [
           Locale('en'),

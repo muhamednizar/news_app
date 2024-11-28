@@ -1,4 +1,4 @@
-#Thu Nov 28 20:16:54 EET 2024
+#Thu Nov 28 21:00:53 EET 2024
 base.0=D\:\\programing\\FLUTTER COURSE\\news_app\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\programing\\FLUTTER COURSE\\news_app\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
 base.2=D\:\\programing\\FLUTTER COURSE\\news_app\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
