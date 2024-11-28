@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14a25b98-4a40-4d61-a4cb-15ac8b936e82" name="Changes" comment="+ search &#10;+ details screen">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/config/language/locale_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/language/locale_provider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data/api/api_manager/api_manager.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/api/api_manager/api_manager.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/my_app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/my_app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentetion/screens/home/tabs/details_screen/details_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentetion/screens/home/tabs/details_screen/details_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentetion/screens/home/tabs/settings/settings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentetion/screens/home/tabs/settings/settings.dart" afterDir="false" />
-    </list>
+    <list default="true" id="14a25b98-4a40-4d61-a4cb-15ac8b936e82" name="Changes" comment="+ search &#10;+ details screen" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732818936178</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="+ search &#10;+ details screen">
+      <option name="closed" value="true" />
+      <created>1732820556001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732820556001</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

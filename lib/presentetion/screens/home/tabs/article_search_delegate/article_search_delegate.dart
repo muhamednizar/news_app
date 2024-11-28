@@ -4,17 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 class ArticleSearchDelegate extends SearchDelegate {
-  // استخدام متغير لتخزين المقالات التي تأتي من API
   List<String> articles = [];
 
-  // منطق البحث باستخدام API
   Future<void> fetchArticles(String query) async {
     final response = await http
         .get(Uri.parse('https://api.example.com/search?query=$query'));
 
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
-      // تحويل البيانات المسترجعة إلى قائمة من المقالات (تأكد من هيكل البيانات من الـ API)
       articles = List<String>.from(
           data['articles'].map((article) => article['title']));
     } else {
@@ -46,7 +43,6 @@ class ArticleSearchDelegate extends SearchDelegate {
 
   @override
   Widget buildResults(BuildContext context) {
-    // إجراء البحث باستخدام الـ query
     return FutureBuilder<void>(
       future: fetchArticles(query),
       builder: (context, snapshot) {
